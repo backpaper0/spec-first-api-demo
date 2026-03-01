@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN" "https://checkstyle.org/dtds/configuration_1_3.dtd">
+
+<module name="Checker">
+
+    <!-- 1行の最大文字数（LLMに優しい値） -->
+    <module name="LineLength">
+        <property name="max" value="120" />
+    </module>
+
+    <module name="TreeWalker">
+
+        <!-- ★ 4スペースインデント -->
+        <module name="Indentation">
+            <property name="basicOffset" value="4" />
+            <property name="braceAdjustment" value="0" />
+            <property name="caseIndent" value="4" />
+            <property name="lineWrappingIndentation" value="8" />
+        </module>
+
+        <!-- 波括弧は必須（安全） -->
+        <module name="NeedBraces" />
+
+        <!-- 空白ルール -->
+        <module name="WhitespaceAround" />
+        <module name="NoWhitespaceBefore" />
+        <module name="NoWhitespaceAfter" />
+
+        <!-- 空行の整理 -->
+        <module name="EmptyLineSeparator" />
+
+        <!-- import整理 -->
+        <module name="AvoidStarImport" />
+
+    </module>
+</module>
