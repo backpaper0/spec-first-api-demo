@@ -1,6 +1,6 @@
 # spec-first-api-demo
 
-[cc-sdd](https://github.com/anthropics/claude-code) と Claude Code の Plan モードを組み合わせた **仕様駆動開発（Spec-Driven Development）** のデモリポジトリ。
+[cc-sdd](https://github.com/gotalab/cc-sdd) と Claude Code の Plan モードを組み合わせた **仕様駆動開発（Spec-Driven Development）** のデモリポジトリ。
 
 AI-DLC（AI Development Life Cycle）の実践として、Kiro スタイルの Spec-Driven Development をどのように Spring Boot アプリケーション開発へ適用するかを示す。
 
